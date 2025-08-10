@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+</head>
+<body>
+    <section>
+        <h2>Lists</h2>
+        <ul>
+            <li>Table</li>
+            <li>Chair</li>
+            <li>Desk</li>
+            <li>Bookshelf</li>
+        </ul>
+        <ol>
+            <li>Bananas</li>
+            <li>Grapes</li>
+            <li>Kiwis</li>
+            <li>Lemons</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Apple</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Orange</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pineapple</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Media</h2>
+        <video controls width="600" height="400">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section>
+        <h2>Forms</h2>
+        <form method="post">
+            <label for="firstname">Name:</label>
+            <input type="text" id="firstname" name="firstname" required placeholder="John">
+            <br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required placeholder="Doe">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" max="120">
+            <br>
+            <label><input type="radio" name="gender" value="male" required>Male</label>
+            <label><input type="radio" name="gender" value="female" required>Female</label>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
